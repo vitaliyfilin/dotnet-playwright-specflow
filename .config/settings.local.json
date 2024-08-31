@@ -1,0 +1,14 @@
+﻿{
+  "WebUi": {
+    "BaseAddress": "https://demoqa.com/"
+  },
+  "Playwright": {
+    "Browser": "Chromium",
+    "Headless": false,
+    "TraceDir": "C:/temp/playwright",
+    "NavigationTimeout": 30,
+    "LocatorTimeout": 10,
+    "SlowMo": 0,
+    "MaxFeaturesRunInParallel": 2
+  }
+}

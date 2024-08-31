@@ -1,0 +1,22 @@
+﻿{
+  "WebUi": {
+    "BaseAddress": "http://localhost:8080/",
+    "ByPassCsp": true,
+    "IgnoreHttpsErrors": true,
+    "Locale": "de-DE"
+  },
+  "Playwright": {
+    "Browser": "Chromium",
+    "Headless": false,
+    "TraceDir": "C:/temp/playwright",
+    "NavigationTimeout": 10,
+    "LocatorTimeout": 10,
+    "SlowMo": 0,
+    "MaxFeaturesRunInParallel": 1
+  },
+  "BrowserContext": {
+    "Screenshots": false,
+    "Snapshots": false,
+    "Sources": false
+  }
+}
